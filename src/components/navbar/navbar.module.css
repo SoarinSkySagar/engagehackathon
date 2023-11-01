@@ -3,25 +3,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 50px 0 50px;
+  padding: 0 20px; /* Adjust the padding for better mobile display */
 }
 
 .logo {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 24px; /* Decrease font size for mobile devices */
 }
 
 .links {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  display: none; /* Hide the links by default for small screens */
 }
 
 .logout {
-  padding: 5px;
+  padding: 5px 10px; /* Increase padding for better touch interactions */
   border: none;
   background-color: #5396c2;
   color: white;
   cursor: pointer;
   border-radius: 3px;
 }
+
