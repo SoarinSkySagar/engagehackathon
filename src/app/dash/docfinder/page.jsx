@@ -10,226 +10,163 @@ const stores = {
   type: "FeatureCollection",
   features: [
     {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.403088, 22.513429],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.2087, 28.5672]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Ruby General Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Ruby General Hospital",
-          address: "Kasba Golpark, E M Bypass, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.aiims.edu/" target="_blank">AIIMS, New Delhi</a></strong><p> Rating: 4.6</p>',
+          "name": "AIIMS, New Delhi",
+          "address": "Sri Aurobindo Marg, Ansari Nagar, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.402138, 22.543739],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.0270, 28.4595]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Apollo Gleneagles Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Apollo Gleneagles Hospital",
-          address: "58, Canal Circular Road, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.apollohospitals.com/" target="_blank">Apollo Hospital, Gurgaon</a></strong><p> Rating: 4.3</p>',
+          "name": "Apollo Hospital, Gurgaon",
+          "address": "Block C, Sushant Lok Phase I, Gurgaon, Haryana",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.365205, 22.514912],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.0833, 28.4974]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Fortis Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Fortis Hospital",
-          address: "111A, Rash Behari Avenue, Gariahat, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.fortishealthcare.com/india/hospitals-in-haryana/fortis-memorial-research-institute-gurugram" target="_blank">Fortis Hospital, Gurugram</a></strong><p> Rating: 4.1</p>',
+          "name": "Fortis Hospital, Gurugram",
+          "address": "Sector 44, Opposite HUDA City Centre, Gurugram, Haryana",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.418223, 22.582752],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.0460, 28.4162]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">AMRI Hospitals</a></strong><p> Rating: 4.6</p>',
-          name: "AMRI Hospitals",
-          address: "JC - 16 & 17, Salt Lake, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.medanta.org/gurugram/" target="_blank">Medanta - The Medicity, Gurgaon</a></strong><p> Rating: 4.4</p>',
+          "name": "Medanta - The Medicity, Gurgaon",
+          "address": "Sector 38, Gurugram, Haryana",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.334765, 22.539444],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.2139, 28.5191]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Woodlands Multispeciality Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Woodlands Multispeciality Hospital",
-          address: "8/5, Alipore Road, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.maxhealthcare.in/hospital-network/max-super-specialty-hospital-saket" target="_blank">Max Super Speciality Hospital, Saket, New Delhi</a></strong><p> Rating: 4.0</p>',
+          "name": "Max Super Speciality Hospital, Saket, New Delhi",
+          "address": "1, 2, Press Enclave Road, Saket, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.394311, 22.468541],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.1242, 28.7501]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Peerless Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Peerless Hospital",
-          address: "360, Panchasayar, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.fmri.in/" target="_blank">Fortis Memorial Research Institute, Gurugram</a></strong><p> Rating: 4.2</p>',
+          "name": "Fortis Memorial Research Institute, Gurugram",
+          "address": "Sector 44, Gurugram, Haryana",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.399545, 22.486617],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.2229, 28.5670]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Medica Superspecialty Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Medica Superspecialty Hospital",
-          address: "127, Mukundapur, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.brahmanandahospital.com/" target="_blank">Brahmananda Narayana Multispeciality Hospital, Jamia Nagar, New Delhi</a></strong><p> Rating: 3.8</p>',
+          "name": "Brahmananda Narayana Multispeciality Hospital, Jamia Nagar, New Delhi",
+          "address": "Abul Fazal Enclave, Jamia Nagar, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.334135, 22.537504],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.1144, 28.5831]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Kothari Medical Centre</a></strong><p> Rating: 4.6</p>',
-          name: "Kothari Medical Centre",
-          address: "8/3, Alipore Road, Kolkata",
-          distance: 0,
+        "properties": {
+          "description": '<strong><a href="https://www.fortishealthcare.com/india/hospitals-in-delhi-ncr/fortis-flt-lt-rajans-gurgaon-real-surgery-hospital" target="_blank">Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj, New Delhi</a></strong><p> Rating: 4.1</p>',
+          "name": "Fortis Flt. Lt. Rajan Dhall Hospital, Vasant Kunj, New Delhi",
+          "address": "Sector B, Pocket 1, Vasant Kunj, New Delhi",
+          "distance": 0
+        }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.1815, 28.6721]
         },
+        "properties": {
+          "description": '<strong><a href="https://www.blkhospital.com/" target="_blank">BLK Super Speciality Hospital, New Delhi</a></strong><p> Rating: 4.4</p>',
+          "name": "BLK Super Speciality Hospital, New Delhi",
+          "address": "Pusa Road, Karol Bagh, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.366453, 22.546505],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.1133, 28.5054]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Belle Vue Clinic</a></strong><p> Rating: 4.6</p>',
-          name: "Belle Vue Clinic",
-          address: "9, Dr. U. N. Brahmachari Street, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.sgrh.com/" target="_blank">Sir Ganga Ram Hospital, New Delhi</a></strong><p> Rating: 4.3</p>',
+          "name": "Sir Ganga Ram Hospital, New Delhi",
+          "address": "Rajinder Nagar, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.430661, 22.595864],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.1695, 28.6922]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Columbia Asia Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Columbia Asia Hospital",
-          address: "Block DJ, Sector II, Salt Lake City, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.moolchandhealthcare.com/" target="_blank">Moolchand Hospital, New Delhi</a></strong><p> Rating: 4.0</p>',
+          "name": "Moolchand Hospital, New Delhi",
+          "address": "Lajpat Nagar III, New Delhi",
+          "distance": 0
+        }
       },
       {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.416226, 22.503268],
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.2067, 28.6695]
         },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Desun Hospital and Heart Institute</a></strong><p> Rating: 4.6</p>',
-          name: "Desun Hospital and Heart Institute",
-          address: "720, Anandapur, Kolkata",
-          distance: 0,
-        },
+        "properties": {
+          "description": '<strong><a href="https://www.cygnushospitals.com/" target="_blank">Cygnus Orthocare Hospital, New Delhi</a></strong><p> Rating: 3.9</p>',
+          "name": "Cygnus Orthocare Hospital, New Delhi",
+          "address": "Najafgarh Road, New Delhi",
+          "distance": 0
+        }
       },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.400854, 22.485735],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Rabindranath Tagore International Institute of Cardiac Sciences</a></strong><p> Rating: 4.6</p>',
-          name: "Rabindranath Tagore International Institute of Cardiac Sciences",
-          address: "124, Mukundapur, E.M.Bypass, Kolkata",
-          distance: 0,
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.354695, 22.537053],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Peerless Hospitex Hospital and Research Center Ltd.</a></strong><p> Rating: 4.6</p>',
-          name: "Peerless Hospitex Hospital and Research Center Ltd.",
-          address: "12, Jawaharlal Nehru Road, Kolkata",
-          distance: 0,
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.415701, 22.501789],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">NH RTIICS Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "NH RTIICS Hospital",
-          address: "700, Anandapur, E.M.Bypass, Kolkata",
-          distance: 0,
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.383013, 22.567439],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Ils Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Ils Hospital",
-          address: "1, Narkeldanga Main Rd, Kadapara, Phool Bagan, Kolkata",
-          distance: 0,
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.353259, 22.566282],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Peerless Diagnostic Centre</a></strong><p> Rating: 4.6</p>',
-          name: "Peerless Diagnostic Centre",
-          address: "44, Motilal Nehru Rd, Chowringhee North, Kolkata",
-          distance: 0,
-        },
-      },
-      {
-        type: "Feature",
-        geometry: {
-          type: "Point",
-          coordinates: [88.301284, 22.583570],
-        },
-        properties: {
-          description: '<strong><a href="#" target="_blank">Narayana Superspeciality Hospital</a></strong><p> Rating: 4.6</p>',
-          name: "Narayana Superspeciality Hospital",
-          address: "120, 1, Andul Road, Tikiapara, Howrah, West Bengal",
-          distance: 0,
-        },
-      },
+      
       {
         type: "Feature",
         geometry: {
