@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Hero from "public/hero.png";
 import Button from "@/components/Button/Button";
-import Healthcheck from 'public/healthcheck.png'
-import Map from '/public/mapview.png'
+import Healthcheck from 'public/health.png'
+import Map from '/public/location.png'
 import LoginImage from '/public/login.png'
-import Dash from '/public/dash.png'
+import Dash from '/public/dashh.png'
 
 export default function Home() {
   return (
