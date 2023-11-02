@@ -28,6 +28,11 @@ const links = [
     title: "Dashboard",
     url: "/dashboard/login",
   },
+  {
+    id: 6,
+    title: "Dashboard",
+    url: "/dash",
+  },
 ];
 
 const Navbar = () => {
@@ -75,7 +80,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
+  );    
 };
 
 export default Navbar;
