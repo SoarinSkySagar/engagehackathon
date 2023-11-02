@@ -54,24 +54,24 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between p-4 sm:p-6 lg:p-8">
-      <Link href="/" className="text-white text-xl">
+      <Link href="/" className="text- text-xl">
         चिकित्सालय
       </Link>
 
-      {/* Mobile menu toggle button with white-colored React Icons */}
+      {/* Mobile menu toggle button with -colored React Icons */}
       <div className="sm:hidden">
-        <div className="text-white" onClick={toggleMobileMenu}>
-        <FaBars className="text-white text-xl" style={{ marginLeft: "-100px" }} /> {/* Adjust the margin-left for icon position */}
+        <div className="text-" onClick={toggleMobileMenu}>
+        <FaBars className="text- text-xl" style={{ marginLeft: "-100px" }} /> {/* Adjust the margin-left for icon position */}
         </div>
       </div>
 
       <div className={`sm:flex space-x-4 mobile-menu-container ${mobileMenuOpen ? 'block' : 'hidden'}`}>
         {links.map((link) => (
-          <Link key={link.id} href={link.url} className="block text-white p-2 hover:bg-blue-600">
+          <Link key={link.id} href={link.url} className="block text- p-2 hover:bg-blue-600">
             {link.title}
           </Link>
         ))}
-        <div className="block text-white p-2 hover:bg-blue-600">
+        <div className="block text- p-2 hover:bg-blue-600">
         </div>
       </div>
     </div>
