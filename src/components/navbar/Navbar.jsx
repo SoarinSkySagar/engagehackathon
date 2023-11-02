@@ -54,8 +54,8 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between p-4 sm:p-6 lg:p-8">
-      <Link href="/" className="text- text-xl">
-        चिकित्सालय
+      <Link href="/" className=" font-bold text-4xl">
+        SwaasthSathi
       </Link>
 
       {/* Mobile menu toggle button with -colored React Icons */}
@@ -65,9 +65,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className={`sm:flex space-x-4 mobile-menu-container ${mobileMenuOpen ? 'block' : 'hidden'}`}>
+      <div className={`sm:flex text-xl space-x-4 mobile-menu-container ${mobileMenuOpen ? 'block' : 'hidden'}`}>
         {links.map((link) => (
-          <Link key={link.id} href={link.url} className="block text- p-2 hover:bg-blue-600">
+          <Link key={link.id} href={link.url} className="block text- p-2 hover:-tracking-wide">
             {link.title}
           </Link>
         ))}
