@@ -328,7 +328,7 @@ const HealthProblemForm = () => {
           </form>
 
           {/* Display the API response as bars */}
-          <div className="mt-8 bg-gray-900 p-4 rounded-lg text-white-700">
+          <div className="mt-8 bg-white p-4 rounded-lg text-black">
             <h3 className="text-xl font-semibold mb-2">Possible Diseases:</h3>
             {loading ? <Loading /> : renderBars()} {/* Show the Loading component during loading */}
           </div>

@@ -26,7 +26,7 @@ const links = [
   {
     id: 5,
     title: "Dashboard",
-    url: "/dashboard/login",
+    url: "/dash",
   },
 
 ];
