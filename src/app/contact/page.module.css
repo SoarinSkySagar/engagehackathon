@@ -39,6 +39,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: #010101;
 }
 
 .input,
@@ -47,8 +48,8 @@
   background-color: transparent;
   border: none;
   outline: none;
-  color: #bbb;
-  border: 3px solid #bbb;
+  color: #010101;
+  border: 3px solid #343131;
   font-size: 20px;
   font-weight: bold;
 }

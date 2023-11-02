@@ -37,9 +37,9 @@ export default function Dashboard() {
   return (
     <div className='px-16 py-8 overflow-hidden h-screen'>
       <div className='flex'>
-        <div className='font-semibold text-gray-300'>
+        <div className='font-semibold text-black'>
           <div>Welcome back,</div>
-          <div className='text-4xl'>Sagar Rana</div>
+          <div className='text-4xl'>User</div>
         </div>
         <div className='ml-auto flex items-center'>
           <button className='flex items-center gap-2 bg-blue-500 text-lg font-bold hover:bg-blue-700 text-white py-4 px-11 rounded-lg '>
